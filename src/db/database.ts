@@ -1,6 +1,6 @@
 import { env } from "@/env";
 import * as schema from "./schema";
-import { PostgresJsDatabase, drizzle } from "drizzle-orm/postgres-js";
+import { type PostgresJsDatabase, drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 
 declare global {
